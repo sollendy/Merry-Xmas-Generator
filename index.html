@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generatore auguri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Generatore di Auguri</h1>
+        </header>
+
+        <main>
+            <div class="anteprima">
+                <img id="img-anteprima" src="./images/img_1.png" alt="Immagine 1">
+                <img id="testo-anteprima" src="./images/txt_1.png" alt="Testo 1">
+                <div class="ante-mex">Auguroni</div>
+            </div>
+            <div class="controlli">
+
+                <div class="azioni">
+                    <button id="cambia-img" class="bottone primo-bottone">
+                        <img src="./images/icon-image.png" alt="Cambia immagine">
+                    </button>
+    
+                    <button id="cambia-testo" class="bottone primo-bottone">
+                        <img src="./images/icon-text.png" alt="Cambia testo">
+                    </button>  
+                </div>
+
+                <input id="mittente" type="text" maxlength="20" placeholder="tuo nome">
+              
+                <button id="scarica" class="bottone bottone-secondo">
+                    <img src="./images/icon-download.png" alt="Download image">
+                </button>
+            </div>
+        </main>
+    </div>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.10.9/html-to-image.min.js" integrity="sha512-IetiMzopsrb75HtZydIM8zRv1mlSmV42P0iZVT4sPHxDnhM0I9O8/75bFqlfWoCKTnDB+pFqvoQrlnkgUeShaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js" integrity="sha512-7tWCgq9tTYS/QkGVyKrtLpqAoMV9XIUxoou+sPUypsaZx56cYR/qio84fPK9EvJJtKvJEwt7vkn6je5UVzGevw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
